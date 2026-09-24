@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 390 844" width="390" height="844" id="Screen_08_GeneratorWA">
+    <!-- 08. WhatsApp Generator -->
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap');
+            text {
+                font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            }
+        </style>
+        <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FF6B35"/>
+            <stop offset="100%" stop-color="#FF8243"/>
+        </linearGradient>
+        <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#005AF5"/>
+            <stop offset="100%" stop-color="#2D7BFF"/>
+        </linearGradient>
+        <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#262017" flood-opacity="0.05"/>
+        </filter>
+        <filter id="btn-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#FF6B35" flood-opacity="0.28"/>
+        </filter>
+        <filter id="btn-blue-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#005AF5" flood-opacity="0.25"/>
+        </filter>
+        <filter id="btn-wa-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#10B981" flood-opacity="0.28"/>
+        </filter>
+        <filter id="float-shadow" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#262017" flood-opacity="0.12"/>
+        </filter>
+    </defs>
+
+    <!-- Canvas Frame (390 x 844, rx=40) -->
+    <rect width="390" height="844" rx="40" fill="#F9F8F6"/>
+    <!-- Frame Border -->
+    <rect width="390" height="844" rx="40" fill="none" stroke="#ECEAE5" stroke-width="1.5"/>
+
+    
+    <g id="GeneratorWAScreen">
+        <!-- Header -->
+        <g transform="translate(24, 44)">
+            <circle cx="20" cy="20" r="20" fill="#FFFFFF" filter="url(#float-shadow)"/>
+            <path d="M 23,14 L 16,20 L 23,26" fill="none" stroke="#262017" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="171" y="26" font-size="20" font-weight="800" fill="#262017" text-anchor="middle">WhatsApp Generator</text>
+        </g>
+        
+        <!-- Success Lock Banner -->
+        <g transform="translate(24, 94)">
+            <rect width="342" height="70" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5" filter="url(#card-shadow)"/>
+            <circle cx="32" cy="35" r="15" fill="#10B981"/>
+            <path d="M 26,35 L 30.5,39.5 L 38,30.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="58" y="30" font-size="14.5" font-weight="800" fill="#065F46">Kuota Berhasil Diamankan!</text>
+            <text x="58" y="50" font-size="11.5" font-weight="500" fill="#047857">Pesanan siap dikirim langsung via WhatsApp penjual.</text>
+        </g>
+        
+        <!-- Authentic WhatsApp Chat Bubble Mockup -->
+        <g transform="translate(24, 178)">
+            <rect width="342" height="268" rx="18" fill="#FFFFFF" stroke="#ECEAE5" stroke-width="1.2" filter="url(#card-shadow)"/>
+            <text x="16" y="24" font-size="12.5" font-weight="800" fill="#262017">Pratinjau Pesan Otomatis (wa.me)</text>
+            
+            <!-- WA Chat Bubble with Speech Tail -->
+            <g transform="translate(14, 36)">
+                <!-- Tail notch -->
+                <path d="M 8,0 L 0,-6 L 0,8 Z" fill="#DCF8C6"/>
+                <rect width="314" height="212" rx="14" fill="#DCF8C6" stroke="#C3E8A8" stroke-width="1"/>
+                
+                <text x="14" y="26" font-size="12" font-weight="600" fill="#262017">Halo Admin KateringKita! 👋</text>
+                <text x="14" y="44" font-size="12" font-weight="500" fill="#262017">Saya ingin konfirmasi pesanan:</text>
+                <text x="14" y="68" font-size="12" font-weight="800" fill="#262017">• Menu: Lumpia Diego (1 Porsi)</text>
+                <text x="14" y="86" font-size="12" font-weight="800" fill="#FF6B35">• Total: $129.99</text>
+                <text x="14" y="110" font-size="11.5" font-weight="600" fill="#4D4542">• Pemesan: Abdurrahim (0812-3456-7890)</text>
+                <text x="14" y="128" font-size="11.5" font-weight="600" fill="#4D4542">• Lokasi: Gedung Vokasi UB Lt. 1</text>
+                <text x="14" y="146" font-size="11.5" font-weight="600" fill="#4D4542">• Catatan: Sambal dipisah ya</text>
+                <text x="14" y="174" font-size="11.5" font-weight="500" fill="#4D4542">Mohon diproses ya kak, terima kasih! 🙏</text>
+                
+                <!-- Double Check Blue Ticks -->
+                <path d="M 285,198 L 290,203 L 298,194 M 291,198 L 296,203 L 304,194" fill="none" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round"/>
+                <text x="270" y="202" font-size="10" font-weight="500" fill="#6B7280">12:05</text>
+            </g>
+        </g>
+        
+        <!-- Dual Action Buttons -->
+        <g transform="translate(24, 460)">
+            <rect width="164" height="42" rx="12" fill="#FFFFFF" stroke="#ECEAE5" stroke-width="1.4" filter="url(#card-shadow)"/>
+            <text x="82" y="26" font-size="12.5" font-weight="700" fill="#262017" text-anchor="middle">📋 Salin Pesan</text>
+            
+            <rect x="178" width="164" height="42" rx="12" fill="#FFFFFF" stroke="#ECEAE5" stroke-width="1.4" filter="url(#card-shadow)"/>
+            <text x="260" y="26" font-size="12.5" font-weight="700" fill="#262017" text-anchor="middle">✏️ Edit Pesan</text>
+        </g>
+        
+        <text x="195" y="534" font-size="11.5" font-weight="500" fill="#4D4542" text-anchor="middle">⏱ Tekan tombol di bawah untuk langsung membuka WhatsApp.</text>
+        
+        <!-- Primary Direct WhatsApp Button (Emerald Green Official) -->
+        <g transform="translate(24, 736)">
+            <rect width="342" height="54" rx="16" fill="#10B981" filter="url(#btn-wa-shadow)"/>
+            <!-- WhatsApp Chat Glyph -->
+            <path d="M 108,27 C 108,20 114,15 122,15 C 130,15 136,20 136,27 C 136,33 130,38 122,38 C 120,38 118,37.5 116,37 L 111,39 L 112,34 C 109.5,32 108,29.5 108,27 Z" fill="#FFFFFF"/>
+            <text x="171" y="34" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">Kirim via WhatsApp</text>
+        </g>
+        
+        
+    <g id="HomeIndicator">
+        <rect x="128" y="820" width="134" height="5" rx="2.5" fill="#262017" opacity="0.2"/>
+    </g>
+    
+    </g>
+    
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 390 844" width="390" height="844" id="Screen_01_Loading">
+    <!-- 01. Loading Screen (Splash) -->
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap');
+            text {
+                font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            }
+        </style>
+        <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FF6B35"/>
+            <stop offset="100%" stop-color="#FF8243"/>
+        </linearGradient>
+        <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#005AF5"/>
+            <stop offset="100%" stop-color="#2D7BFF"/>
+        </linearGradient>
+        <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#262017" flood-opacity="0.05"/>
+        </filter>
+        <filter id="btn-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#FF6B35" flood-opacity="0.28"/>
+        </filter>
+        <filter id="btn-blue-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#005AF5" flood-opacity="0.25"/>
+        </filter>
+        <filter id="btn-wa-shadow" x="-20%" y="-20%" width="140%" height="150%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#10B981" flood-opacity="0.28"/>
+        </filter>
+        <filter id="float-shadow" x="-30%" y="-30%" width="160%" height="160%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#262017" flood-opacity="0.12"/>
+        </filter>
+    </defs>
+
+    <!-- Canvas Frame (390 x 844, rx=40) -->
+    <rect width="390" height="844" rx="40" fill="#F9F8F6"/>
+    <!-- Frame Border -->
+    <rect width="390" height="844" rx="40" fill="none" stroke="#ECEAE5" stroke-width="1.5"/>
+
+    
+    <g id="LoadingScreen">
+        <!-- Center Brand Emblem with Glow -->
+        <g transform="translate(135, 250)">
+            <rect width="120" height="120" rx="30" fill="url(#primary-grad)" filter="url(#btn-shadow)"/>
+            <!-- Food Cloche / Bowl Chef Icon -->
+            <path d="M 38,72 H 82 C 84,72 86,70 86,68 C 86,46 72,36 60,36 C 48,36 34,46 34,68 C 34,70 36,72 38,72 Z" fill="#FFFFFF"/>
+            <circle cx="60" cy="30" r="4.5" fill="#FFFFFF"/>
+            <rect x="30" y="75" width="60" height="5" rx="2.5" fill="#FFFFFF"/>
+            <!-- Steam Sparkles -->
+            <path d="M 48,22 Q 50,14 48,8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+            <path d="M 60,20 Q 62,12 60,6" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+            <path d="M 72,22 Q 74,14 72,8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+        </g>
+        
+        <!-- Brand Typography -->
+        <text x="195" y="420" font-size="28" font-weight="800" fill="#262017" text-anchor="middle" letter-spacing="-0.5">KateringKita</text>
+        <text x="195" y="450" font-size="14.5" font-weight="500" fill="#4D4542" text-anchor="middle">Simple shopping experience</text>
+        
+        <!-- Progress Pill Bar with Orange Glow -->
+        <g id="LoadingBar" transform="translate(110, 580)">
+            <rect width="170" height="6" rx="3" fill="#E8E5DF"/>
+            <rect width="105" height="6" rx="3" fill="url(#primary-grad)" filter="url(#btn-shadow)"/>
+        </g>
+        
+        <text x="195" y="615" font-size="12" font-weight="600" fill="#FF6B35" text-anchor="middle">Menyiapkan Dapur Kampus...</text>
+        
+        
+    <g id="HomeIndicator">
+        <rect x="128" y="810" width="134" height="5" rx="2.5" fill="#262017" opacity="0.2"/>
+    </g>
+    
+    </g>
+    
+</svg>
