@@ -3,6 +3,7 @@ import 'core/theme/app_theme.dart';
 import 'presentation/screens/splash_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const KateringKitaApp());
 }
 
@@ -12,7 +13,7 @@ class KateringKitaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kuliner Danus',
+      title: 'KateringKita - Katering & Danus No. 1',
       theme: AppTheme.lightTheme,
       debugShowCheckedModeBanner: false,
       home: const SplashScreen(),

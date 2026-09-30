@@ -1,0 +1,8 @@
+{
+  "name": "KateringKita",
+  "description": "Indonesian catering & snack ordering app for campus events and meetings with WhatsApp order generator",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
