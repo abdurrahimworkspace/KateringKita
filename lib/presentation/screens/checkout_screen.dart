@@ -256,7 +256,9 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                         child: Checkbox(
                           value: _needInvoiceLpj,
                           activeColor: AppColors.primary,
-                          shape: RoundedCornerShape(4),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(4),
+                          ),
                           onChanged: (v) => setState(() => _needInvoiceLpj = v ?? true),
                         ),
                       ),

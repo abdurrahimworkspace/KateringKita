@@ -367,7 +367,9 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                   child: Checkbox(
                     value: _rememberMe,
                     activeColor: AppColors.primary,
-                    shape: RoundedCornerShape(4),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(4),
+                    ),
                     onChanged: (val) => setState(() => _rememberMe = val ?? true),
                   ),
                 ),

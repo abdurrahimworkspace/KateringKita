@@ -24,10 +24,6 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
   final TextEditingController _qtyInputController = TextEditingController();
   bool _requestTester = false;
 
-  // Addons
-  bool _addMineralWater = false;
-  bool _addFruit = false;
-
   @override
   void initState() {
     super.initState();

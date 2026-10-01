@@ -51,11 +51,11 @@ class FoodCard extends StatelessWidget {
                   borderRadius: const BorderRadius.vertical(top: Radius.circular(18)),
                   child: Image.asset(
                     menu.image,
-                    height: 130,
+                    height: 115,
                     width: double.infinity,
                     fit: BoxFit.cover,
                     errorBuilder: (_, __, ___) => Container(
-                      height: 130,
+                      height: 115,
                       color: AppColors.primarySoft,
                       child: const Center(
                         child: Icon(Icons.fastfood, color: AppColors.primary, size: 36),

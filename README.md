@@ -1,13 +1,13 @@
-# KateringKita (Kuliner Danus) - Android Application
+# KateringKita (Kuliner Danus) - Flutter Application
 
-KateringKita is a modern Android application built with **Kotlin** and **Jetpack Compose** (Material Design 3) designed for campus catering and dana usaha (danus) student orders.
+KateringKita is a modern mobile catering application built with **Flutter** (Material Design 3) designed for campus catering and dana usaha (danus) student orders.
 
 ## Features
 
 - **Splash Screen**: Branded splash screen with auto-navigation.
 - **Authentication**: Campus student email login and sign-up entry point.
 - **Home Feed**:
-  - Delivery location switcher (Campus UI Depok)
+  - Delivery location switcher (Kampus UI Depok)
   - Search bar for quick snack discovery
   - Category filters: *Semua*, *Snack Gurih*, *Manis*, *Paket Hemat*
   - Promotional event banners
@@ -35,8 +35,8 @@ KateringKita is a modern Android application built with **Kotlin** and **Jetpack
 
 ## Tech Stack & Architecture
 
-- **Language**: Kotlin 2.0+
-- **UI Framework**: Jetpack Compose with Material 3 (M3)
-- **Architecture**: MVVM (Model-View-ViewModel) with StateFlow
-- **Image Loading**: Coil Compose
-- **Design System**: Plus Jakarta Sans typography, custom adaptive launcher icon
+- **Language & Framework**: Dart 3.13+ / Flutter 3.47+
+- **UI Framework**: Flutter Material 3 (M3)
+- **Architecture**: ChangeNotifier State Management
+- **Typography & Assets**: Plus Jakarta Sans (Google Fonts), custom icons & imagery
+- **Integrations**: URL Launcher (WhatsApp Web/App intent)

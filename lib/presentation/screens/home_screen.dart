@@ -263,7 +263,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       crossAxisCount: 2,
                       mainAxisSpacing: 16,
                       crossAxisSpacing: 14,
-                      childAspectRatio: 0.64,
+                      childAspectRatio: 0.55,
                     ),
                     itemBuilder: (context, index) {
                       return FoodCard(menu: filteredMenus[index]);
@@ -549,7 +549,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Container(
-        height: 145,
+        height: 155,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: const LinearGradient(
@@ -576,7 +576,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(20),
+              padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -600,8 +600,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Diskon Grosir s/d 17%\n+ Gratis Ongkir Mobil Box',
                     style: AppTypography.heading1.copyWith(
                       color: Colors.white,
-                      fontSize: 17,
-                      height: 1.25,
+                      fontSize: 16,
+                      height: 1.2,
                     ),
                   ),
                   const SizedBox(height: 4),
@@ -622,7 +622,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+        padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 12),
         decoration: BoxDecoration(
           color: AppColors.cardBg,
           borderRadius: BorderRadius.circular(14),
@@ -631,10 +631,10 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            _buildTrustItem(Icons.verified, '100% Halal MUI', AppColors.success),
-            _buildTrustItem(Icons.access_time_filled, 'Tepat Waktu', AppColors.primary),
-            _buildTrustItem(Icons.local_shipping, 'Mobil Box Katering', AppColors.blueTech),
-            _buildTrustItem(Icons.receipt_long, 'Invoice LPJ', AppColors.urgencyAmber),
+            Expanded(child: _buildTrustItem(Icons.verified, '100% Halal', AppColors.success)),
+            Expanded(child: _buildTrustItem(Icons.access_time_filled, 'Tepat Waktu', AppColors.primary)),
+            Expanded(child: _buildTrustItem(Icons.local_shipping, 'Mobil Box', AppColors.blueTech)),
+            Expanded(child: _buildTrustItem(Icons.receipt_long, 'Invoice LPJ', AppColors.urgencyAmber)),
           ],
         ),
       ),
@@ -763,7 +763,9 @@ class _HomeScreenState extends State<HomeScreen> {
             style: ElevatedButton.styleFrom(
               backgroundColor: AppColors.primary,
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-              shape: RoundedCornerShape(12),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
             ),
             child: Row(
               mainAxisSize: MainAxisSize.min,
